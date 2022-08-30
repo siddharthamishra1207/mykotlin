@@ -71,18 +71,53 @@ fun main() {
 //            println(i)
 //        }
 //    }
-  calc(2,5)
-    calc(67,89090)
-    PrintString(3,"error 404",9)
-}
+//  calc(2,5)
+//    calc(67,89090)
+//    PrintString(3,"error 404",9)
 
-fun calc(a:Int,b:Int){
-    println(a*b)
-}
 
-fun PrintString(a:Int,b:String,c:Int){
+//fun calc(a:Int,b:Int){
+//    println(a*b)
+//}
+//
+//fun PrintString(a:Int,b:String,c:Int){
+//
+//    for (i in a..c){
+//       println(b)
+//    }
+//}
 
-    for (i in a..c){
-       println(b)
-    }
+//Catage(7)
+// println(Catage1(7) )
+
+
+// function
+// fun Catage(a:Int){
+//     val age = a*7
+//     println("The cat age is $age year old ")
+// }
+
+// function with object passing
+//fun Catage1(a:Int): Int
+//{
+//    val age = a*3
+//    return age
+//}
+//  var ca = Catage(3)
+//   // println(CheckAge(ca))
+//    if(CheckAge(ca))// kotlin assume that it is true
+//         println("This cat is $ca old")
+//    else
+//         println("This cat is not so old")
+//
+//}
+//
+//fun Catage(a:Int) : Int = a*7
+//
+//fun CheckAge(a:Int) : Boolean{
+//    return a>14
+//}
+
+    //Lambda function (a function without name)
+var sum: (Int, Int) -> Int = { a,b -> a+b}
 }

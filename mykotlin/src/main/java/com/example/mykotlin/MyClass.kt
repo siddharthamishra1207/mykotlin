@@ -1,0 +1,18 @@
+package com.example.mykotlin
+
+
+fun main(){
+//var add:(Int , Int) -> Int ={ a,b -> a+b}
+//
+//fun sum(a:Int,b:Int):Int = a+b
+//
+//
+//    var s = sum(2,4)
+//    println(s)
+//    println(add(2,4))
+
+   println(Chechage(CatAge(3)))
+}
+
+var CatAge:(Int)->Int= {a -> a*7 }
+var Chechage:(Int) -> Boolean = {a -> a>14}
