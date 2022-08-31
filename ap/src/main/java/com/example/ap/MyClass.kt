@@ -117,7 +117,8 @@ fun main() {
 //fun CheckAge(a:Int) : Boolean{
 //    return a>14
 //}
+ println(sum(2,3))
 
-    //Lambda function (a function without name)
-var sum: (Int, Int) -> Int = { a,b -> a+b}
 }
+//Lambda function (a function without name)
+var sum: (Int, Int) -> Int = { a,b -> a+b}
